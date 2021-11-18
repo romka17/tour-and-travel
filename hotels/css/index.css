@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Nav */
+
+nav {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.link-nav {
+    padding-top: 21px;
+}
+
+div a {
+    margin-right: 34px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    color: #0381f3;
+}
+
+div a:first-child {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.last-link {
+    margin-right: 18px;
+}
+
+.btn {
+    margin-right: 18px;
+    border: 1px solid #0381f3;
+    padding: 8px 46px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #0381f3;
+}
+
+.btn-1 {
+    padding: 8px 36px;
+    border-radius: 8px;
+    color: #ffffff;
+    background: #0381f3;
+    border: 1px solid #0381f3;
+}
+
+/* Section-1 Pitstop */
+
+.pitstop {
+    min-height: 500px;
+    background: url("../img/bg.jpeg")center center/cover no-repeat;
+    margin-bottom: 2rem;
+}
+
+.title-pitstop {
+    text-align: center;
+    color: #1fa5bd;
+    font-size: 60px;
+    font-style: italic;
+    box-shadow: 5px 1px 5px 5px #1f63bd;
+    margin-bottom: 2rem;
+}
+
+.flex-pitstop {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-pitstop a {
+    border: 1px solid #1fa5bd;
+    background-color: #1fa5bd;
+    color: #ffffff;
+    box-shadow: 3px 1px 5px 4px #1f63bd;
+    padding: 5px 5px;
+}
+
+/* Section-2 profitable proposition */
+
+.profitable  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.profitable-title {
+    text-align: center;
+}
+
+.profitable div img {
+    width: 250px;
+}
+
+.profitable div {
+    margin-right: 4rem;
+}
+
+.profitable div:last-child {
+    margin-right: 0;
+}
+
+/* Section-3 City */
+
+.city {
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+div.city img {
+    display: block;
+    width: 25%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.subtitle-city {
+    font-weight: 400;
+    color: #AFB0B9;
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-left: 10rem;
+}
+
+.title-city {
+    margin-left: 10rem;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    color: #FB8F1D;
+    background-color: #370ba8;
+}
+
+footer div {
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+footer div a {
+    display: block;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+footer div a:hover {
+    text-decoration: underline;
+}

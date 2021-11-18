@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial sans-serif;
+    font-size: 15px;
+    color: #121212;
+    line-height: 1.5;
+    background: url("../img/alph.jpeg") center center no-repeat;
+}
+
+/* Auth */
+
+.auth {
+    width: 260px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.auth-title {
+    font-size: 20px;
+    color: #0db3d9;
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+/* Input */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input {
+    width: 238px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+/* Select */
+
+.select {
+    display: block;
+    width: 260px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 15px;
+    height: 35px;
+    background-color: #fff;
+}
+
+.select:focus {
+    outline: none;
+    border-color: #28cbd1;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #28cbd1;
+}
+
+/* Btn */
+
+.btn {
+    display: block;
+    width: 260px;
+    font-family: inherit;
+    font-size: 15px;
+    border: none;
+    background-color: #4bb91b;
+    padding: 10px;
+    color: #fff;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover,
+.btn:focus {
+    cursor: pointer;
+    background-color: #41aa14;
+}
+
+.btn:active {
+    background-color: #36980d;
+}
